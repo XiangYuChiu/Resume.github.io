@@ -2585,7 +2585,30 @@
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
-
+	
+	
+	.iconfcu {
+        background-image: url('icon/fcu.png'); /* 本地圖示的路徑 */
+        background-size: cover; /* 自適應大小 */
+		border-radius: 50%; /* 製造白色圓形背景 */
+		background-color: white; /* 設置白色背景色 */
+		display: inline-block;
+		width: 80px; /* 調整圖示的寬度 */
+		height: 80px; /* 調整圖示的高度 */
+		margin-right: 100px; /* 調整圖示與文字之間的間距 */
+		overflow: hidden; /* 避免圖示溢出 */
+		padding: 40px;
+    }
+	.iconNTUT {
+        background-image: url('icon/NTUT.jpg'); /* 本地圖示的路徑 */
+        background-size: cover; /* 自適應大小 */
+		border-radius: 50%; /* 製造白色圓形背景 */
+		background-color: white; /* 設置白色背景色 */
+		display: inline-block;
+		width: 80px; /* 調整圖示的寬度 */
+		height: 80px; /* 調整圖示的高度 */
+		margin-right: 100px; /* 調整圖示與文字之間的間距 */
+    }
 /* Image */
 
 	.image {
