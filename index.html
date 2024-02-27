@@ -44,7 +44,41 @@
 							</ul>
 						</div>
 					</section>
+				<!--Code skill ability-->
+				<section id="intro_Code_Skill_ability" class="wrapper style1 spotlights">
+					<section>
+						<div class="content">
+							<h1>程式能力 Code Ability</h1>
+							<canvas id="myChart"></canvas>
 
+							<!-- 長條圖的原始程式碼, 可以移除掉長條圖就會消失 -->
+							<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+							<script>
+								const chartElement = document.getElementById('myChart');
+								const data = {
+									labels: [
+										'python',
+										'C#',
+										'微控制器',
+										'Html(學習中)',
+										'Flutter(學習中)',
+									],
+									datasets: [{
+										label: '比例 %',
+										data: [25, 25,20,15,15],
+									}]
+								};
+								new Chart(chartElement, {
+									type: 'pie',
+									data: data,
+								});
+							</script>
+						</div>
+					</section>
+					
+				
+				</section>
 				<!-- Work Experience -->
 					<section id="intro_Work_Experience" class="wrapper style2 spotlights">
 						<section>
