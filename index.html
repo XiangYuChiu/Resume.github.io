@@ -10,7 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<!--<link rel="stylesheet" href="css/main.css" />-->
 		<link rel="stylesheet" href="css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -40,7 +39,7 @@
 							<h1>邱祥育 SiangYu Chiu</h1>
 							<strong>具備C#和Python程式語言能力，影像處理和OPCUA技術。<br>並在閒暇之餘，積極自學HTML和iOS應用程式開發，並分別各規劃Side Project實作中。</strong>
 							<ul class="actions">
-								<li><a href="/Intro" class="button scrolly">Learn more</a></li>
+								<li><a href="Intro.html" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
@@ -49,31 +48,14 @@
 					<section>
 						<div class="content">
 							<h1>程式能力 Code Ability</h1>
-							<canvas id="myChart"></canvas>
-
-							<!-- 長條圖的原始程式碼, 可以移除掉長條圖就會消失 -->
-							<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-							<script>
-								const chartElement = document.getElementById('myChart');
-								const data = {
-									labels: [
-										'python',
-										'C#',
-										'微控制器',
-										'Html(學習中)',
-										'Flutter(學習中)',
-									],
-									datasets: [{
-										label: '比例 %',
-										data: [25, 25,20,15,15],
-									}]
-								};
-								new Chart(chartElement, {
-									type: 'pie',
-									data: data,
-								});
-							</script>
+							<div class="chart">
+								<div class="bar" style="--percentage: 25%; --color: #007bff;">Python <br>25%</div>
+								<div class="bar" style="--percentage: 25%; --color: #28a745;">C# <br>25%</div>
+								<div class="bar" style="--percentage: 20%; --color: #dc3545;">微控制器 <br>20%</div>
+								<div class="bar" style="--percentage: 15%; --color: #312450;">HTML(學習中) <br>15%</div>
+								<div class="bar" style="--percentage: 15%; --color: #fd7e14;">Flutter(學習中) <br>15%</div>
+								
+							</div>
 						</div>
 					</section>
 					
@@ -155,6 +137,14 @@
 											<h4>2017 - 2021</h4>
 											<h3>Feng Chia University</h3>
 											<h3>自動控制工程學系 學士</h3>
+										</div>
+										</td>
+									</tr>
+									<tr margin-top="10px;"><td>
+										<div>
+											<h4>2013 - 2017</h4>
+											<h3>彰化縣立成功高中</h3>
+											<h3>普通科</h3>
 										</div>
 										</td>
 									</tr>
