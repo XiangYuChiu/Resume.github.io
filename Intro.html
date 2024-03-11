@@ -18,19 +18,15 @@
 </head>
 
 <body>
-
 	<!-- Header -->
 	<header id="header">
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#intro" class="active">Intro</a></li>
-				<!--<li><a href="#one">Intro</a></li>-->
-				<li><a href="#intro_Work_Experience">Work Experience </a></li>
-				<li><a href="#intro_Eduication">Eduication</a></li>
-				<li><a href="#intro_Team_Work_Experience">Team Work Experience</a></li>
-				<li><a href="#intro_Mater_Thesis">Mater Thesis</a></li>
-				<li><a href="/elements">Elements</a></li>
+				<li><a href="Intro.html" class="active">Intro</a></li>
+				<li><a href="Work_Experience.html">Work Experience </a></li>
+				<li><a href="Mater_Thesis.html">Mater Thesis & Project</a></li>
+				<li><a href="Side_Project.html">Side Project</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -40,50 +36,196 @@
 
 		<!-- Main -->
 		<section id="main" class="wrapper">
-			<div class="inner">
-				<h1 class="major">關於我 about me</h1>
-				<img style="width: 300px;float: left;padding: 20px;" src="css/images/Intro.jpg">
-				<p style="padding: 0px 20px 20px 20px;">
-					您好，我叫邱祥育來自彰化的一個小村落，在一個純樸的鄉下長大，因此從小便養成了遇到問題時會先想辦法自行解決的習慣，當遇到不會的事情時會很想要趕快地去把這方面的知識學習起來。
+			<div class="inner" style="display: flex; flex-direction: column;">
+				<div>
+					<section id="About__me">
+						<h1 class="major">關於我 about me</h1>
+						<div style="display: flex; flex-direction: row;">
+							<img style="max-width: 30%;max-height: auto;height: auto;margin: auto; float: left;padding: 20px;border-radius: 10%;" src="css/images/Intro.jpg">
+							<div style="display: flex; flex-direction: column;">
+								<p style="text-indent: 2em;">
+									您好，我叫邱祥育來自彰化的一個小村落，在一個純樸的鄉下長大，因此從小便養成了遇到問題時會先想辦法自行解決的習慣，當遇到不會的事情時會很想要趕快地去把這方面的知識學習起來。
+		
+									在高中的時候擔任吉他社的社長，與其他幹部一同成功的將草創的社團走出校園到社會上展演。大學時，擔任逢甲大學資訊處維修室的維修工讀生，協助負責全校電腦軟硬體的維修並維持了三年半的工讀時間，在維修室工讀的期間受到逢甲大學推廣教育中心的賞識至其單位擔任電腦教室維護人員，負責其單位旗下所有電腦教室保養及維護同時擔任該單位與學校資訊處溝通的橋樑，並在其餘時間協助該單位進行開班等事項。碩士就讀期間，在台北科技大學機電學院副院長陳金聖教授與機械工程系李仕宇副教授的共同指導下，參與科技部計畫並且擔任子計畫二負責人，過程中協助網路部分通過國際資安認證IEC62443
+									2-4認證，為目前台灣少數通過認證的團隊之一
+								</p>
+								<section id="Experience" style="display: flex;flex-direction: column;">
+									<h1 class="major">經歷</h1>
+									<ol>
+										<li>科技部發展結合物聯雲霧計算平台與異質生產設備之智慧化資安技術暨攻防演練場域驗證-子計畫二負責人</li>
+										<li>國立台北科技大學AI數位轉型研發中心網路長</li>
+										<li>逢甲大學推廣教育中心電腦教室維護人員</li>
+										<li>逢甲大學資訊處維修室維修工讀生</li>
+										<li>彰化成功高級中學第三屆吉他社社長</li>
+									</ol>
+								</section>
+							</div>
+						</div>
+						
+						
+					</section>					
+				</div>
+				<div style="display: flex; flex-direction: column;width: auto; align-items: stretch;">
+					<section id="Eduication" style="display: flex;flex-direction: column;">
+						<h1 class="major">學歷 Eduication</h1>
+						
+						<section id="NTUT">
+								<div class="context">
+									<h2>國立台北科技大學 自動化科技研究所 碩士</h2>
+									<h3 style="color: darkgray;">National Taipei University of Technology Graduate Insitute of Automation Technology </h3>
+									<h4>2021-2023</h4>
+									<div>
+										<p>
+											在北科大自動化研究所攻讀碩士期間，我深入研究了影像處理和資訊安全領域。在這段時間裡，我參與了一項科技部計畫，該計畫使我深入了解了OPCUA（開放平台通信統一架構）以及資訊安全相關標準，並通過IEC62443 2-4資安認證，這項認證對於我未來的職業發展有著重要的意義。
+										</p>
+									</div>
+									<div>
+										<p>
+											在我的碩士研究中，我專注於探索基於混沌密碼學的高級加密標準系統，並將其應用於工業物聯網的開放平台統一通訊架構閘道器上。這是一個極具挑戰性和前瞻性的領域，因為工業物聯網的發展需要高效、安全的通訊系統來保護敏感資訊。
+										</p>
+									</div>
+									<div>
+										<p>
+											我的研究旨在提出一種新穎的基於混沌的高級加密標準技術，可應用於圖像和數據保護，並且在工業物聯網的環境下具有高度的適用性。這項技術的主要特點包括利用單峰映射作為混沌生成器，並且在生成密鑰之後移除隨機序列，以確保密鑰的不可預測性和安全性。
+										</p>
+									</div>
+									<div>
+										<p>
+											此外，我設計了一個靈活的加密回合數，可以根據數據的保護程度進行調整，從而平衡安全性和效率之間的關係。
+										</p>
+									</div>
+									<div>
+										<p>
+											我通過一系列實驗和測試，驗證了我提出的基於混沌的高級加密標準技術對於工業物聯網通訊架構的有效性和可行性。特別是，在實際安裝在OPCUA閘道器上進行測試之後，我發現這項技術能夠成功地保護傳輸的數據，破壞了原始數據中的相關性關係，從而確保了資訊的安全性。
+										</p>
+									</div>
+									<div>
+										<p>
+											此外，我在自學方面也不懈努力。在研究之餘，我開始自學HTML和iOS應用程式開發，這些技能將為我未來的職業發展打下堅實的基礎。我的碩士論文也涵蓋了對於混沌密碼學在資訊安全領域的應用，這些經驗將成為我未來在軟體開發和資訊安全領域的寶貴資產。
+										</p>
+									</div>
+									<div>
+										<p>
+											總的來說，我是一位對於新技術充滿熱情並且樂於學習的人。我具有豐富的研究和實踐經驗，尤其在影像處理、資訊安全和工業物聯網領域。我期待著將我的專業知識和技能應用於實際工作中，並為公司的發展做出積極的貢獻。
+										</p>
+									</div>
+								</div>
+								<div class="container" style="width:100%;text-align: center;" >
 
-					在高中的時候擔任吉他社的社長，與其他幹部一同成功的將草創的社團走出校園到社會上展演。大學時，擔任逢甲大學資訊處維修室的維修工讀生，協助負責全校電腦軟硬體的維修並維持了三年半的工讀時間，在維修室工讀的期間受到逢甲大學推廣教育中心的賞識至其單位擔任電腦教室維護人員，負責其單位旗下所有電腦教室保養及維護同時擔任該單位與學校資訊處溝通的橋樑，並在其餘時間協助該單位進行開班等事項。碩士就讀期間，在台北科技大學機電學院副院長陳金聖教授與機械工程系李仕宇副教授的共同指導下，參與科技部計畫並且擔任子計畫二負責人，過程中協助網路部分通過國際資安認證IEC62443
-					2-4認證，為目前台灣少數通過認證的團隊之一
-				</p>
-				<p>
-					經歷
+									<iframe  width="560" height="315" src="https://www.youtube.com/embed/fVuCowrY7X4?si=6e1sipzg_wezgYk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-					1.彰化成功高級中學第三屆吉他社社長
+								</div>
+									
+						</section>
+						
+						<section id="FCU">
+							<div class="display:flex; flex-direction:row;align-items:center;">
+								<div style="float: left; width: 60%;margin: auto; align-items: center;">
+									<h2>逢甲大學 自動控制工程學系 學士</h2>
+									<h3 style="color: darkgray;">Feng Chia University Department of Automatic Control Engineering</h3>
+									<h4>2017-2021</h4>
+									<div>
+										<p>
+											逢甲大學自動控制工程學系提供了PLC、基礎油氣壓工程、可程式控制器（包括Arduino和8051）等廣泛而深入的學術課程，使我獲得了豐富的理論基礎和實踐經驗。
+										</p>
+									</div>
+									<div>
+										<p>
+											我在課程學習之餘，積極協助教授處理相關事務，並擔任自動控制學系陳靖坤教授ArduinoAIOT課程的授課助教。另外在程式設計實習課程中排名第二，這反映了我在實踐方面的優異表現。
+										</p>
+									</div>
+									
+									<div>
+										<p>
+											我的學習經歷和實踐經驗使我具備了豐富的專業知識和技能，在未來的職業生涯中，我期待著將所學應用於實際工作中，為我所在的領域做出積極的貢獻。
+										</p>
+									</div>	
+								</div>
+								<!-- Container for the image gallery -->
+								<div class="container" style="float: right; width: 40%;margin:0 auto;">
+										<!-- Full-width images with number text -->
+										<div class="mySlides">
+										<div class="numbertext">1 / 4</div>
+										<img src="css/images/FCU/01.jpg" style="width:100%;">
+										</div>
+									
+										<div class="mySlides">
+										<div class="numbertext">2 / 4</div>
+										<img src="css/images/FCU/02.jpg" style="width:100%;">
+										</div>
 
-					2.逢甲大學資訊處維修室維修工讀生
-
-					3.逢甲大學推廣教育中心電腦教室維護人員
-
-					4.國立台北科技大學AI數位轉型研發中心網路長
-
-					5.科技部發展結合物聯雲霧計算平台與異質生產設備之智慧化資安技術暨攻防演練場域驗證-子計畫二負責人</p>
-				<p>2024年2月23日</p>
+										<div class="mySlides">
+										<div class="numbertext">3 / 4</div>
+										<img src="css/images/FCU/03.jpg" style="width:100%;">
+										</div>
+									
+										<div class="mySlides">
+										<div class="numbertext">4 / 4</div>
+										<img src="css/images/FCU/04.jpg" style="width:100%;height: 349px;">
+										</div>
+									
+										<!-- Next and previous buttons -->
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+									
+										<!-- Image text -->
+										<div class="caption-container">
+											<p id="caption"></p>
+										</div>
+									
+										<!-- Thumbnail images -->
+										<div class="row" style="margin: auto;text-align: center;">
+											<div class="column">
+												<img class="demo cursor" src="css/images/FCU/01.jpg" style="width:100%; margin:auto" onclick="currentSlide(1)" alt="畢業專題 穿戴式MCU心律感測">
+											</div>
+											<div class="column">
+												<img class="demo cursor" src="css/images/FCU/02.jpg" style="width:100%; margin:auto" onclick="currentSlide(2)" alt="擔任自動控制學系陳靖坤教授ArduinoAIOT授課助教。">
+											</div>
+											<div class="column">
+												<img class="demo cursor" src="css/images/FCU/03.jpg" style="width:100%; margin:auto" onclick="currentSlide(3)" alt="系上桌球隊擔任隊長職務">
+											</div>
+											<div class="column">
+												<img class="demo cursor" src="css/images/FCU/04.jpg" style="width:100%; margin:auto" onclick="currentSlide(4)" alt="系上桌球隊與友系合作舉辦競賽">
+											</div>
+											
+										</div>
+								</div>
+							</div>
+						</section>
+						
+						<section id="CKSH">
+							<div>
+								<h2>彰化成功高級中學 普通科</h2>
+								<h3 style="color: darkgray;">Changhua County Chengkung High School </h3>
+								<h4>2013-2017</h4>
+							</div>
+						</section>
+					</section>
+				</div>
+				
 			</div>
-	</div>
 	</section>
 	</div>
+
+	
 	<!-- Footer -->
-	<footer id="footer" class="wrapper alt">
+	<footer id="footer" class="wrapper style1-alt">
 		<div class="inner">
 			<ul class="menu">
-				<li>&copy; Untitled. All rights reserved.</li>
-				<li>Design: <a href="/AGV">子計畫二</a></li>
+				<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="index.html">SiangYu Chiu Resume</a></li>
 			</ul>
 		</div>
 	</footer>
 
 	<!-- Scripts -->
-	<script src="static/assets/js/jquery.min.js"></script>
-	<script src="static/assets/js/jquery.scrollex.min.js"></script>
-	<script src="static/assets/js/jquery.scrolly.min.js"></script>
-	<script src="static/assets/js/skel.min.js"></script>
-	<script src="static/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="static/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="static/assets/js/main.js"></script>
+	<script src="js/slideshow.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.scrollex.min.js"></script>
+	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="js/main.js"></script>
 
 </body>
 

@@ -183,7 +183,6 @@
 						$img.hide();
 
 				});
-
 		// Features.
 			if (skel.canUse('transition'))
 				$('.features')
