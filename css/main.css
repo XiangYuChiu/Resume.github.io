@@ -4075,3 +4075,14 @@
   .demo:hover {
 	opacity: 1;
   }
+
+  .gray-square {
+	width: 100px; /* 设置长方形的宽度 */
+    height: 17px; /* 设置长方形的高度 */
+    background-color: #ccc; /* 设置背景颜色为灰色 */
+    border-radius: 20px; /* 设置圆角半径 */
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
